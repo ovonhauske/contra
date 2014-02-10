@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<a id="documentation" href="http://cactusformac.com/redirect/#documentation">Documentation</a>
+
+<section id="wrapper">
+  <header id="header">
+    <img id="avatar" class="2x" src="{% static '/static/images/avatar.jpg' %}"/>
+      <h1>{% block title %}Profile{% endblock title %}</h1>
+    <h2>Small personal page.</h2>
+  </header> <!--header-->
+
+  <p>The profile starting point is a small personal landing page. It displays your avatar and generates a snippet of text, suitable for a description or personal information.</p>
+</section> <!--wrapper-->
+{% endblock content %}
